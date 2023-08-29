@@ -2,6 +2,7 @@
 Proyecto Integrador para SQL sugerido por Instructor en el bootcamp de Henry
 
 ## El Web Scraping: Descubriendo Datos en la Web
+![web-scraping](https://github.com/ayma-falcon/Web-Scraping/assets/113071324/f4aa4c10-6c93-4216-9e9b-27c9f5a02cf7)
 
 En el mundo actual, la información fluye a través de la internet, y cada vez más aspectos de nuestra vida se ven influenciados por la tecnología y la disponibilidad de datos en línea. En este contexto, el proyecto que vamos a explorar se sumerge en el fascinante mundo del web scraping, una técnica que nos permite recolectar datos valiosos de páginas web de manera automatizada. Pero, ¿qué es exactamente el web scraping?
 
