@@ -26,6 +26,7 @@ FLUSH PRIVILEGES;
 /*Los archivos que se quieran cargar tienen que estar en la carpeta uploads
 Al estar ahi mysql los toma como que puede leerlos y escribir en ellos, de lo contrario
 los toma como archivos privados a los que no puede acceder*/
+TRUNCATE TABLE LibrosTop100;
 LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\webscrapinglibros.csv'
 INTO TABLE LibrosTop100
 CHARACTER SET latin1
@@ -44,6 +45,7 @@ Fecha DATE,
 PRIMARY KEY (IdError)
 );
 
+TRUNCATE TABLE Errores;
 LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\erroreslibros.csv'
 INTO TABLE Errores
 CHARACTER SET latin1
